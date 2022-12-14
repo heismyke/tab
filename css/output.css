@@ -540,10 +540,6 @@ video {
   margin-top: 1.25rem;
 }
 
-.ml-5 {
-  margin-left: 1.25rem;
-}
-
 .flex {
   display: flex;
 }
@@ -552,16 +548,12 @@ video {
   display: table;
 }
 
-.h-\[400px\] {
-  height: 400px;
+.h-\[600px\] {
+  height: 600px;
 }
 
 .h-\[30px\] {
   height: 30px;
-}
-
-.h-\[600px\] {
-  height: 600px;
 }
 
 .w-\[90\%\] {
@@ -669,14 +661,14 @@ video {
   background-color: rgb(22 101 52 / var(--tw-bg-opacity));
 }
 
-.bg-red-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
-}
-
 .bg-yellow-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(254 240 138 / var(--tw-bg-opacity));
+}
+
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 
 .bg-\[\] {
@@ -701,19 +693,14 @@ video {
   padding: 0.75rem;
 }
 
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-}
-
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
 
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .px-3 {
@@ -759,6 +746,11 @@ video {
 }
 
 @media (prefers-color-scheme: dark) {
+  .dark\:border-\[\#333B3F\] {
+    --tw-border-opacity: 1;
+    border-color: rgb(51 59 63 / var(--tw-border-opacity));
+  }
+
   .dark\:bg-slate-900 {
     --tw-bg-opacity: 1;
     background-color: rgb(15 23 42 / var(--tw-bg-opacity));
